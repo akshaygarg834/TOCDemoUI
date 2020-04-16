@@ -6,7 +6,7 @@ import Book from "./components/Book";
 
 export default function App() {
   return (
-    <div className="center-align">
+    <>
       <Header />
       <div className="container" style={{ marginTop: "50px" }}>
         <div className="row">
@@ -15,6 +15,8 @@ export default function App() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
+
+// comment
